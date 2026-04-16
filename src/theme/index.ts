@@ -48,7 +48,10 @@ const darkTheme = createTheme({
     ctaCircle: darkPalette.ctaCircle,
     ctaGlyph: darkPalette.ctaGlyph,
   },
-  spacing: {}
+  spacing: {},
+  textVariants: {
+    defaults: {},
+  }
 });
 
 export type Theme = typeof darkTheme;
